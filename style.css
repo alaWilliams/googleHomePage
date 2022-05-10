@@ -1,0 +1,30 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  list-style-type: none;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: black
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+display: flex;
+justify-content: center;
+}
+
+.search-field {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 50px auto;
+}
