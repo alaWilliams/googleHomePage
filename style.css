@@ -1,7 +1,18 @@
 * {
   font-family: Helvetica, Arial, sans-serif;
 }
+body {
+  margin: 0;
+}
 
+#nav {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+#nav a {
+  margin-right: 20px;
+}
 ul {
   display: flex;
   justify-content: flex-end;
@@ -20,6 +31,8 @@ a:hover {
 h1 {
 display: flex;
 justify-content: center;
+background-color: blanchedalmond;
+padding: 5em;
 }
 
 .search-field {
@@ -27,4 +40,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin: 50px auto;
+border-radius: 18%;
+
 }
+
+
